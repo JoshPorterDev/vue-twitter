@@ -1,6 +1,6 @@
 <template>
-  <div class="home">
-    <h1>Home Page</h1>
+  <div class="explore">
+    <h1>Explore Page</h1>
     <left-side-bar />
     <right-side-bar />
   </div>
@@ -12,7 +12,7 @@ import LeftSideBar from '@/components/LeftSideBar.vue'
 import RightSideBar from '@/components/RightSideBar.vue'
 
 export default {
-  name: 'Home',
+  name: 'Explore',
   components: {
     LeftSideBar,
     RightSideBar
